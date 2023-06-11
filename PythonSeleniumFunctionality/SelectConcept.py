@@ -13,6 +13,7 @@ driver.get("https://www.orangehrm.com/en/contact-sales/")
 
 
 ele_Country=driver.find_element(By.XPATH,"//select[@name='Country']")
+#we have to import select class
 Coutry_SELECT=Select(ele_Country)
 Coutry_SELECT.select_by_index(5)
 time.sleep(3)
