@@ -8,6 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.support.ui import Select
 
+#To generate html report need to install one package - pip install pytest-html
 #To generate html report :-  python -m pytest test_google_test.py -v -s --html=google_report.html
 
 driver = None
@@ -19,6 +20,7 @@ def init_driver():
     driver.delete_all_cookies()
     driver.get("https://www.google.com/")
 
+    #Here yield act as @after
     yield
     driver.quit()
 
