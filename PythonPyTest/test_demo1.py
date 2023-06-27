@@ -11,7 +11,7 @@ import pytest
 #Marker in python command line ->  python -m pytest -m login
 # if want to run from perticular file :-> python -m pytest test_demo1.py -m login
 #To generate html report need to install one package - pip install pytest-html
-# run command  python -m pytest test_google_test.py -v -s --html=google_report.html
+# run command  python -m pytest test_google_test.py -v --html=google_report.html
 
 @pytest.mark.login  #this one ypu have to add to mark test @pytest.mark.markname
 def test_M1():
