@@ -1,0 +1,4 @@
+2023-06-29 11:06:55,350 - Test_logger - INFO - write your logs
+2023-06-29 11:06:55,350 - Test_logger - WARNING - write your logs
+2023-06-29 11:06:55,351 - Test_logger - ERROR - write your logs
+2023-06-29 11:06:55,351 - Test_logger - CRITICAL - write your log
